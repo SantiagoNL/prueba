@@ -1,0 +1,14 @@
+/* Mapas */
+
+$standard: (
+    color: white,
+    bg-standard: linear-gradient(-45deg, #353535, rgb(17, 17, 17)),
+    
+);
+
+
+body {
+    background-image: map-get($standard, bg-standard);
+    height: 800PX;
+    width: 100%;
+}

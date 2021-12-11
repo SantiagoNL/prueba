@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.boton-1 {
+    @extend %botones;
+
+    background-color: red;
+    color: white;
+}
+
+
+.boton-2 {
+    @extend %botones;
+
+    background-color: green;
+}
+
+.boton-3 {
+    @extend %botones;
+
+    background-color: blue;
+    color: white;
+}
+
+.contenido {
+    display: flex;
+}

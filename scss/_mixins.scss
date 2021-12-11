@@ -1,0 +1,26 @@
+/* Mixins */
+
+/* Regla - nombre */
+@mixin boton-animado {
+    transform: scale(2);
+}
+
+
+
+
+/* Mixins sin variable/parametro */
+@mixin botones-animado-2 ($hover) {
+    transform: $hover;
+}
+
+.boton-1 :hover {
+    @include botones-animado-2 (scale(1.5));
+}
+
+.boton-2 :hover {
+    @include botones-animado-2 (scale(1.5));
+}
+
+.boton-3 :hover {
+    @include botones-animado-2 (scale(1.5));
+}
